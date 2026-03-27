@@ -22,66 +22,67 @@ Sağlık Robotuna Hoşgeldiniz!
       -19 Kolestrol
       -20 Demir Eksikliği
 """)
-secim = input("Hastalığı Seçiniz: ").lower()
 
-if secim == "ateşlenme":
+secim = int(input("Hastalığın Numarasını Giriniz: ").strip())
+
+if secim == 1:
     print("Sizin İçin Gerekli Olan İlaç Calpol")
 
-elif secim == "boğaz ağrısı":
+elif secim == 2:
     print("Sizin İçin Gerekli Olan İlaç Majezik")
 
-elif secim == "soğuk algınlığı":
+elif secim == 3:
     print("Sizin İçin Gerekli Olan İlaç İburamin Zero")
 
-elif secim == "burun akıntısı":
+elif secim == 4:
     print("Size Gerekli Olan İlaç Sterimar Stop & Protect")
 
-elif secim == "mide bulantısı":
+elif secim == 5:
     print("Size Gerekli Olan İlaç Buscovan ve Granisetron")
 
-elif secim == "alerji":
+elif secim == 6:
     print("Size Gerekli Olan İlaç Zytrec")
 
-elif secim == "baş dönmesi":
+elif secim == 7:
     print("Size Gerekli Olan İlaç Dramamine")   
 
-elif secim == "vitamin eksikliği":
+elif secim == 8:
     print("Size Gerekli Olan İlaç Feramat")
 
-elif secim == "uykusuzluk":
+elif secim == 9:
     print("Size Gerekli Olan İlaç Ambien")
 
-elif secim == "diyabet":
+elif secim == 10:
     print("Size Gerekli Olan İlaç Glifor")
 
-elif secim == "ishal":
+elif secim == 11:
     print("Size Gerekli Olan İlaç Raxerin")
 
-elif secim == "kabız":
+elif secim == 12:
     print("Size Gerekli Olan İlaç DulceSoft")
 
-elif secim == "tansiyon":
+elif secim == 13:
     print("Size Gerekli Olan İlaç Benipin")
 
-elif secim == "göz yanması":
+elif secim == 14:
     print("Size Gerekli Olan İlaç Tobrex")  
 
-elif secim == "burun tıkanıklığı":
+elif secim == 15:
     print("Size Gerekli Olan İlaç Sinomarin")
 
-elif secim == "karaciğer yağlanması":
+elif secim == 16:
     print("Size Gerekli Olan İlaç Nutraxin")
 
-elif secim == "nabız":
+elif secim == 17:
     print("Size Gerekli Olan İlaç Atropin")            
 
-elif secim == "mide yanması":
+elif secim == 18:
     print("Size Gerekli Olan İlaç Acidpass")
 
-elif secim == "kolestrol":
+elif secim == 19:
     print("Size Gerekli Olan İlaç Rosuvastatin")
 
-elif secim == "demir eksikliği":
+elif secim == 20:
     print("Size Gerekli Olan İlaç Feritin") 
 
 else:
